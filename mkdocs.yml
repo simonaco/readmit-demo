@@ -1,0 +1,4 @@
+site_name: Readmission Demo
+site_url: http://matt.readmission.com
+plugins:
+    - mkdocs-video
