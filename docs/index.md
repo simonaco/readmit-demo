@@ -40,6 +40,27 @@ Using Azure Data and AI services to build, deploy and operationalize a model to 
 
 ![Screenshot](img/detailedarch.png)
 
+## Results
+
+* **Algorithm Chosen:** Voting Ensemble with different flavors of boosted tree models.
+	- Performed best when evaluating out-of-sample (OOS) AUC.
+	- Inference time generally not as important as performance/accuracy on these types of use cases.
+* **Results:** OOS AUC: 0.73 and OOS Balanced Accuracy:  0.61
+
+![Screenshot](img/roc.png)
+
+![Screenshot](img/cumgains.png)
+
+## Takeaways
+
+* **Model Performance:** Readmission predictions and similar use cases are often great POC use cases because models tend to perform well and lead to great value (especially at scale).
+* **Why Azure?:** Azure has all of the needed resources to quickly and accurately go from data to model to deployment. Moreover, Azure tools are available to fit different personas for folks who are building models (business analyst to data scientist).
+* **Tips and Lessons Learned:**
+	- Understand success criteria up front. Is it model performance? is it time to produce models? is it cost?
+	- You do not need DBs of data; most models can be built on tens of thousands records depending on the variable set.
+	- If model performance matters understand benchmarks ahead of time.
+	- AutoML is your friend! That feature can allow any users to build a highly accurate model quickly. Always push for text data as a predictor as a way to increase model performance.
+
 ## Demo Video
 
 ![type:video](./videos/azureml_demo.mp4)
