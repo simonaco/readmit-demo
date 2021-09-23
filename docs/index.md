@@ -45,7 +45,7 @@ Using Azure Data and AI services to build, deploy and operationalize a model to 
 * **Algorithm Chosen:** Voting Ensemble with different flavors of boosted tree models.
 	- Performed best when evaluating out-of-sample (OOS) AUC.
 	- Inference time generally not as important as performance/accuracy on these types of use cases.
-* **Results:** OOS AUC: 0.73 and OOS Balanced Accuracy:  0.61
+* **Results:** OOS AUC: 0.73 and OOS Balanced Accuracy: 0.61
 
 ![Screenshot](img/roc.png)
 
