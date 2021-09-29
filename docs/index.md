@@ -35,7 +35,6 @@ Using Azure Data and AI services to build, deploy and operationalize a model to 
 * **Synapse Analytics**: Offers Synapse Workspace which allows engineers to create transformation pipelines in either Spark or TSQL.
 * **Synapse SQL Pools**: High performance SQL engine that connects well other tools to materialize results (such as Power BI).
 
-
 ## Detailed Architecture
 
 ![Screenshot](img/detailedarch.png)
